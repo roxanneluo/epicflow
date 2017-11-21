@@ -23,3 +23,9 @@ Tested only on 64 bit Linux.
 >> addpath(genpath('utils'));
 >> imshow(flowToColor(readFlowFile(f)));
 ```
+
+## My Usage
+* run epicflow to and do left-right consistency check
+>> demo_epicflow_occ 
+* from sparse matches matches.txt generated from other program, refine them with epicflow and do left-right consistency check
+>> demo_epicflow_refine
